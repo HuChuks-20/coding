@@ -1,0 +1,241 @@
+<!-- css code -->
+<style>
+  /* master styles */
+  body{
+    margin:0px;
+  }
+ 
+  /* nav styles */
+   nav{
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+   }
+
+  .nav-link  {
+    display:flex;
+    padding:2px 8px ;
+    font-size:0.9em;
+   }
+
+  .nav-link div a{
+     margin-right: 20px;
+     text-decoration:none ;
+     color:black;
+   }
+
+  .nav-link div::after{
+      content:"";
+      height:2px;
+      width:0px;
+      display:block;
+      margin:auto;
+      transition:0.5s;
+      background:black;
+   
+  }  
+
+  .nav-link div:hover::after{
+      width:100%;
+      color:black;
+  }
+/* body style */
+  .container{
+     background-color:gray;
+    display:grid;
+    grid-template-columns: 1fr, 1fr ,1fr;
+    grid-template-rows: repeat();
+  }
+
+  .items{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+
+  }
+
+  .item {
+    position:relative;
+  
+  }
+
+  .item-image{
+    height:350px;
+    width:100%;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+  }
+
+
+  .image-text {
+    width:100%;
+    left:50%;
+    top:50%;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    transform:translate(-50%, -50%);
+    position:absolute;
+    color:transparent;
+    font-size:20px
+  }
+
+  .image-text:hover{
+    background-color: black;
+    transition:1.5s;
+    color:aqua;
+  }
+
+  .active-nav-link{
+    border-bottom: 100px;
+    color:black;
+  }
+
+  .active-nav-link a{
+    color:black !important;
+  }
+</style>  
+  
+  
+  
+ 
+  
+
+<!-- html code -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="author" content="egede chukwuyem">
+      <meta name="description" content="this page is about the terms and condition">
+      <title>techstudio</title>
+      <link rel="stylesheet" href="">
+   </head>
+      <body>
+        <div class="container">
+          <nav>
+                     <div class="nav-link">
+                    <div class="active-nav-link"><a href="portforlio.html">HOME</a></div>
+                 <div><a href="about.html">ABOUT</a></div>
+              </div>
+             <div class="brand">
+          <div>CHUKS CODE</div>
+        </div>
+      </nav>
+        
+      <div class="content">
+        <div class="items">
+
+           <div class="item">
+              <div class="item-image" style="background-image:url(img/photo-1461749280684-dccba630e2f6.jpeg)"></div>
+
+              <div class="image-text">
+                 <div> i learnt how to code at the beginning of this year in mid january.during my holiday</div> 
+                
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-image" style="background-image:url(img/photo-1498050108023-c5249f4df085\ \(1\).jpeg)"></div>
+              <div class="image-text">
+                  this was one of my first project i did when i finished learning how to code..
+                
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-image" style="background-image:url(img/Screenshot_20221207-085357_1.jpg)"></div>
+              <div class="image-text">
+
+                  i built a blog website and a quip ecommerce website for most of my clients
+                
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-image" style="background-image:url(img/photo-1542831371-29b0f74f9713_1\ \(1\).jpeg)"></div>
+              <div class="image-text">
+                 learning how to code is one of the most imortant thing for every youth out there
+                
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-image" style="background-image:url(img/photo-1555066931-4365d14bab8c\ \(1\).jpeg)"></div>
+              <div class="image-text">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis tempore alias veniam commodi sit omnis excepturi beatae ad obcaecati, molestiae, rem exercitationem! Ipsam quod iste nemo incidunt id molestias veniam?
+                
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-image" style="background-image:url(img/photo-1575089976121-8ed7b2a54265\ \(1\).jpeg)"></div>
+              <div class="image-text">
+                 i did my best building this project though,,,it was quiet overwhelming but it was a success!!!
+                
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-image" style="background-image:url(img/Screenshot_20221201-010202\ \(1\).jpg)"></div>
+              <div class="image-text">
+                  i also learnt how to prepare taccos .my mom taught me how to prepare it ...it is so delicious
+                
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-image" style="background-image:url(img/IMG-20221105-WA0001.jpg)"></div>
+              <div class="image-text">
+                i also made money from  an online affliate marketing named miscochat...i guess youn should try it also.
+                
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-image" style="background-image:url(img/images\ \(1\).jpeg)"></div>
+              <div class="image-text">
+                  after 
+                  learning how to code i took admission into the university of glasgow in the uk and i graduated..
+                
+              </div>
+            </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>    
+          
+          
+          
+         
+         
+     
+
+     
+     
+     
+     
+
+     
+     
+     
+
+     
+
+     
+
+     
+
+     
+     
+         
+         
+      
+      
